@@ -1,3 +1,7 @@
+Getting and Cleaning Data Course Project
+
+
+
 run_analytics.R reads a test and training dataset recorded on a mobile device. Each dataset 
 consists of three files:
 1) a set of parameters measured (X_test.txt, X_train.txt)
@@ -23,4 +27,5 @@ The dataset has then be converted into a tidy dataset which I considered to cons
 
 After melting the tidy dataset has been aggregated into a table stating each combination of subject, activity and variable and the mean of the values.
 
-The aggregated data have been written to a file named output.txt
+The aggregated data have been written to a file named output.txt. The content of 
+output.txt is described in the file CodeBook.md
